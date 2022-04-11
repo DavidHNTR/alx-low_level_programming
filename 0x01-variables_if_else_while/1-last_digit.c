@@ -11,7 +11,9 @@ int main(void)
 {
 int n;
 
-int lst = "and is less than 6 and not 0\n";
+char lst;
+
+lst = "and is less than 6 and not 0\n";
 
 srand(time(0));
 
