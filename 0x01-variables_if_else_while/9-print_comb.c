@@ -4,7 +4,7 @@
  * main - Start prog
  *
  * Return: End prog
- * */
+ */
 
 int main(void)
 {
