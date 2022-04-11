@@ -9,7 +9,7 @@ int main () {
 
    int ch;
 
-   for(ch = 0 ; ch <= 26 ; ch++)
+   for(ch = 0 ; ch < 26 ; ++ch)
    {
    putchar("a" + ch);
    }
