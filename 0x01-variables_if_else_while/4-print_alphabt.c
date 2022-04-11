@@ -12,7 +12,7 @@ int c;
 
 for (c = 0; c < 26 ; ++c)
 {
-if('a' + c == 'e' || 'a' + c == 'q')
+if ('a' + c == 'e' || 'a' + c == 'q')
 continue;
 
 putchar('a' + c);
