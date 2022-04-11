@@ -11,10 +11,10 @@ int main () {
 
    for(ch = 0 ; ch < 26 ; ++ch)
    {
-   putchar("a" + ch);
+   putchar('a' + ch);
    }
 
-   putchar("\n");
+   putchar('\n');
  
     return(0);
 }
