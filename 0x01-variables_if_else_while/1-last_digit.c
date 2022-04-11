@@ -11,7 +11,7 @@ int main(void)
 {
 int n;
 
-char lst;
+char * lst;
 
 lst = "and is less than 6 and not 0\n";
 
