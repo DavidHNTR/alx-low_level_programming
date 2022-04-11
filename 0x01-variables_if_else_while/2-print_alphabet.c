@@ -7,15 +7,14 @@
  */
 int main () {
 
-   char ch;
+   int ch;
 
-   for(ch = 'a' ; ch <= 'z' ; ch++)
+   for(ch = 0 ; ch <= 26 ; ch++)
    {
    putchar(ch);
-
-   if(ch == 'z')
-     putchar("\n");
    }
 
+   putchar("\n");
+ 
     return(0);
 }
