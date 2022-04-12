@@ -21,7 +21,7 @@ if (i == j || i == k || j == k)
 	continue;
 if (i < j && i < k && j < k)
 {
-if (First>0)
+if (First > 0)
 {
 putchar(',');
 putchar(' ');
