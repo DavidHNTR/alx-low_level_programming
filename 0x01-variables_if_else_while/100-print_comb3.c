@@ -10,18 +10,18 @@ int main(void)
 {
 int i;
 int Num1, Num2;
-for (i = '0' ; i <= '8' ; i++)
+for (i = '0' ; i <= '9' ; i++)
 {
 int j;
-for (j = '1' ; j < '9' ; j++)
+for (j = '1' ; j <= '9' ; j++)
 {
 Num1 = (i * 10) + j;
 Num2 = (j * 10) + i;
 
-if (Num1 == Num2 || Num2<Num1)
+if (Num1 == Num2 || Num2 < Num1)
 continue;
 
-if(i > '0' || j > '0')
+if (i > '0' || j > '1')
 {
 putchar(',');
 putchar(' ');
