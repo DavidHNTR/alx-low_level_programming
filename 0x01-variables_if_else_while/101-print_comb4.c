@@ -19,7 +19,7 @@ for (k = '0'; k <= '9'; k++)
 {
 if (i == j || i == k || j == k)
 	continue;
-if (First<0)
+if (First>0)
 {
 putchar(',');
 putchar(' ');
