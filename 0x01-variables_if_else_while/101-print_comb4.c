@@ -9,7 +9,7 @@
 int main(void)
 {
 int i, j, k;
-bool First = true;
+int First = -1;
 
 for (i = '0'; i <= '9'; i++)
 {
@@ -19,13 +19,13 @@ for (k = '0'; k <= '9'; k++)
 {
 if (i == j || i == k || j == k)
 	continue;
-if (!First)
+if (First<0)
 {
 putchar(',');
 putchar(' ');
 }
 
-First = false;
+First = 1;
 
 if (i < j && i < k && j < k)
 {
