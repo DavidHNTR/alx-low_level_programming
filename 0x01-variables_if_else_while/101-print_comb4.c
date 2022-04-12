@@ -19,6 +19,8 @@ for (k = '0'; k <= '9'; k++)
 {
 if (i == j || i == k || j == k)
 	continue;
+if (i < j && i < k && j < k)
+{
 if (First>0)
 {
 putchar(',');
@@ -26,9 +28,6 @@ putchar(' ');
 }
 
 First = 1;
-
-if (i < j && i < k && j < k)
-{
 putchar(i);
 putchar(j);
 putchar(k);
