@@ -13,6 +13,9 @@ if (n <= 98)
 {
 	for (; n <= 98; n++)
 	{
+	if(n > 98)
+	break;
+
 	printf("%i", n);
 
 	if (n != 98)
@@ -24,10 +27,15 @@ if (n > 98)
 {
 	for (; n >= 98 ; n--)
 	{
+	if (n < 98)
+	break;
+	
 	printf("%i", n);
 
-	if (n!= 98)
+	if (n != 98)
 	printf(", ");
 	}
 }
+
+_putchar('\n');
 }

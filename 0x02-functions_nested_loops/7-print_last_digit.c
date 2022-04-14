@@ -14,6 +14,6 @@ _putchar(x % 10);
  return (x % 10);
 }
 
-_putchar((x * -1) % 10)
+_putchar((x * -1) % 10);
 return ((x * -1) % 10);
 }
