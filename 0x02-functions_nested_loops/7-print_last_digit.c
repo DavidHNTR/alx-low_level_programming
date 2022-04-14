@@ -12,7 +12,7 @@ int i = x % 10;
 
 if (i < 0)
 {
-i *= -1
+i *= -1;
 }
 
 _putchar(i);
