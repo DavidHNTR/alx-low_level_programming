@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - Start
- *
+ * @n : integer
  * Return: End
  */
 
@@ -13,7 +13,7 @@ if (n <= 98)
 {
 	for (; n <= 98; n++)
 	{
-	printf(n);
+	printf("%i", n);
 
 	if (n != 98)
 	printf(", ");
@@ -24,7 +24,7 @@ if (n > 98)
 {
 	for (; n >= 98 ; n--)
 	{
-	printf(n);
+	printf("%i", n);
 
 	if (n!= 98)
 	printf(", ");
