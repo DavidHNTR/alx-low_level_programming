@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _islower(int c) - Start
- *
+ * _islower - Start
+ * int c - Pass value
  * Return: End
  */
 
