@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Start
+ * print_alphabet_x10 - Start
  *
  * Return: End
  */
@@ -17,7 +17,6 @@ for (j = 'a'; j <= 'z'; j++)
 {
 _putchar(j);
 }
-}
-
 _putchar('\n');
+}
 }
