@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Start
+ * _islower(int c) - Start
  *
  * Return: End
  */
