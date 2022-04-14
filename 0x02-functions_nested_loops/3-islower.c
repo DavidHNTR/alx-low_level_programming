@@ -2,7 +2,7 @@
 
 /**
  * _islower - Start
- * int c - Pass value
+ * @c : integer
  * Return: End
  */
 

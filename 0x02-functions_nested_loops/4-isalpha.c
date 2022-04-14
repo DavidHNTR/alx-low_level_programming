@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - Main Func
- *
+ * @c : integer
  * Return: End
  */
 

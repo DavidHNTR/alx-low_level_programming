@@ -2,7 +2,7 @@
 
 /**
  * _abs - Start
- *
+ * @x : integer
  * Return: End
  */
 
